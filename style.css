@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+
+body {
+    background-color: #242424;
+}
+
+.h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    line-height: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.mybtn {
+    text-align: center; 
+    padding: 8px 10px;
+    margin-right: 25px;
+    margin-left: 10px;
+    font-family: 'Manrope', sans-serif;
+    border: none;
+    background:#0026ff;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 	
+    text-transform: uppercase;
+}
+.mybtn:hover {
+    color: #fff;
+    background: #1b1b1b;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+}
+
+.mybtn2 {
+    text-align: center; 
+    padding: 8px 10px;
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-family: 'Manrope', sans-serif;
+    border: none;
+    background:#0026ff;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 	
+    text-transform: uppercase;
+}
+
+.mybtn2:hover {
+    color: #fff;
+    background: #1b1b1b;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+}
+
+.spoiler {
+    display: block;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    font-size: 22px;
+    padding: 10px 20px;
+    background: #558ed6;
+    font-family: 'Manrope', sans-serif;
+    color: #fff;
+    font-family: Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+.spoiler input[type=checkbox] {
+    display: none;
+}
+
+.text {
+    padding: 20px;
+    color: white;
+    border: 1px solid #ccc;
+    font-family: 'Manrope', sans-serif;
+    border-radius: 4px;
+    margin: 12px 0 20px;
+}
+
+.spoiler input[type=checkbox] ~ .text {
+    display: none;
+}
+
+.spoiler input[type=checkbox]:checked ~ .text {
+    display: block;
+}
